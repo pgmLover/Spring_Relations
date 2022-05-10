@@ -1,4 +1,4 @@
-package com.example.SpringBootRelations.controller.annotations;
+package com.example.SpringBootRelations.annotations;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

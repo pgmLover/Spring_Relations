@@ -28,4 +28,9 @@ public class ProductController {
     public List<Customer> findAll(){
        return customerRepository.findAll();
     }
+
+    @GetMapping("/findDetails")
+    public List<Customer> findDetail(){
+        return customerRepository.findAll();
+    }
 }
