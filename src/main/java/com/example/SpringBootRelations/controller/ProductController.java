@@ -2,6 +2,7 @@ package com.example.SpringBootRelations.controller;
 
 import com.example.SpringBootRelations.dto.OrderRequest;
 import com.example.SpringBootRelations.entity.Customer;
+import com.example.SpringBootRelations.entity.OrderResponse;
 import com.example.SpringBootRelations.repository.CustomerRepository;
 import com.example.SpringBootRelations.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -29,8 +30,8 @@ public class ProductController {
        return customerRepository.findAll();
     }
 
-    @GetMapping("/findDetails")
-    public List<Customer> findDetail(){
-        return customerRepository.findAll();
+    @GetMapping("/getInfo")
+    public List<OrderResponse> findDetail(){
+        return customerRepository.getOrderResponse();
     }
 }
