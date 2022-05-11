@@ -1,5 +1,4 @@
 package com.example.SpringBootRelations.repository;
-
 import com.example.SpringBootRelations.entity.Customer;
 import com.example.SpringBootRelations.entity.OrderResponse;
 import org.springframework.data.jpa.repository.JpaRepository;
