@@ -41,10 +41,10 @@ public class ProductController {
         return productService.getTransaction();
     }
 
-    @GetMapping("/books")
-    public List<BookResponse> allBooks(){
-        return productService.getAllBooks();
-    }
+//    @GetMapping("/books")
+//    public List<BookResponse> allBooks(){
+//        return productService.getAllBooks();
+//    }
 
     @PostMapping("/books/add")
     public Book saveBook(@RequestBody BookRequest bookRequest){

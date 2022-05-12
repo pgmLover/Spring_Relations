@@ -32,8 +32,8 @@ public class ProductService {
     public Book saveBook(BookRequest bookRequest) {
         return (bookRepository.save(bookRequest.getBook()));
     }
-
-    public List<BookResponse> getAllBooks() {
-        return authorRepository.getProducts();
-    }
+//
+//    public List<BookResponse> getAllBooks() {
+//        return authorRepository.getProducts();
+//    }
 }
